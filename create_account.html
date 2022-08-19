@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Create Account
+    </title>
+    <link rel="stylesheet" href="/create_account.css">
+</head>
+
+<body>
+    <header>
+        <h1>Barkatullah University Institute of Technology</h1>
+    </header>
+    <nav><a href="/home_page.html">Home</a><a href="#">Courses</a><a href="/fee-structure.html">Fee Structure</a><a
+            href="/faculties.html">Faculties</a><a href="/login.html" class="log">Login/SignUp</a></nav>
+    <main>
+        <fieldset class="main_fieldset">
+            <legend>
+                <h2>Create New Account</h2>
+            </legend>
+            <div class="grid_name">
+                <span>First Name</span>
+                <span>Middle Name</span>
+                <span>Last Name</span>
+                <span class="input special_input"><input type="text" placeholder="First Name" required
+                        name="First_Name"></span>
+                <span class="input special_input"><input type="text" placeholder="Middle Name" required
+                        name="Middle_Name"></span>
+                <span class="input special_input"><input type="text" placeholder="Last Name" required
+                        name="Last_Name"></span>
+            </div>
+            <div class="div_gender_fieldset">
+                <fieldset class="gender_fieldset">
+                    <legend>Gender</legend>
+                    <div><span class="gender"><input type="radio" required name="Gender"> Male</span><span
+                            class="gender"><input type="radio" required name="Gender"> Female</span></div>
+                </fieldset>
+            </div>
+            <div>Father Name</div>
+            <div class="input"><input type="text" placeholder="Father Name" required name="Father_Name"></div>
+            <div>Mother Name</div>
+            <div class="input"><input type="text" placeholder="Mother Name" required name="Mother_Name"></div>
+            <div>Address</div>
+            <div class="input"><textarea placeholder="Address" required name="Address" rows="5"></textarea></div>
+            <div class="grid_city">
+                <span>City</span>
+                <span>PinCode</span>
+                <span class="input special_input"><input type="text" placeholder="City" required name="City"></span>
+                <span class="input special_input"><input type="number" placeholder="PinCode" required
+                        name="PinCode"></span>
+            </div>
+            <div>State</div>
+            <div class="input"><input type="text" placeholder="State" required name="State"></div>
+            <div class="grid_city">
+                <span>Mobile Number</span>
+                <span>E-mail Address</span>
+                <span class="input special_input"><input type="number" placeholder="Mobile Number" required
+                        name="Mobile_Number"></span>
+                <span class="input special_input"><input type="email" placeholder="E-mail Address" required
+                        name="E-mail"></span>
+            </div>
+            <div>Password</div>
+            <div class="input"><input type="password" placeholder="Password" required name="Password"></div>
+            <div class="login">Already have an account?<a href="/login.html">Login</a>here</div>
+            <div class="button"><button type="submit">Submit</button></div>
+        </fieldset>
+    </main>
+</body>
+
+</html>

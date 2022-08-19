@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    color: #113632;
+    /* background: rgb(17, 84, 77);
+    background: linear-gradient(90deg, rgba(17, 84, 77, 1) 0%, rgba(18, 108, 100, 0.8578781854538691) 33%, rgba(5, 142, 128, 0.6702031154258579) 66%, rgba(6, 158, 142, 0.5189426112241772) 100%); */
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #115F57;
+    color: #e7e7e7;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+.log {
+    float: right;
+}
+
+nav a:hover {
+    font-weight: 900;
+}
+
+.login {
+    text-align: center;
+    font-size: 45px;
+
+    padding-bottom: 40px;
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-weight: 500;
+}
+
+form {
+    margin: auto;
+    background-color: #f4f4f4;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: #113632;
+    text-align: center;
+    padding: 3% 3% 3% 3%;
+    width: 50%;
+    height: 50%;
+}
+
+div {
+    padding: 15px;
+    font-size: 25px;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: #113632;
+}
+
+span {
+    padding: 7px;
+}
+
+.forgot {
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(15, 102, 215);
+}
+
+.forgot:hover,
+.signup a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.signup {
+    text-align: center;
+    font-size: 15px;
+    padding: 1px;
+    margin: 0px;
+}
+
+.signup a {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: rgb(15, 102, 215);
+}
+
+button {
+    width: 50%;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    background-color: rgb(17, 84, 77);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+button:hover {
+    color: white;
+    background-color: #113632;
+    font-weight: 700;
+}
